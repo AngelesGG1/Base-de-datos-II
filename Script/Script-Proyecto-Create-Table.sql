@@ -15,7 +15,7 @@ ALTER TABLE DireccionEmpleado ADD CONSTRAINT FK_Dire_Emp_Empleado FOREIGN KEY (P
 
 
 CREATE TABLE TelefonoEmpleado(
-PK_TelefomoEmpleado integer PRIMARY KEY,
+PK_TelefonoEmpleado integer PRIMARY KEY,
 Telefono_Movil varchar2(15) NOT NULL,
 Telefono_Local varchar2(15) NOT NULL,
 PK_Empleado integer
